@@ -32,6 +32,8 @@ export default function PortfolioContainer() {
         <div className='spacer' />
       <Intro />
  
+      <Project isDarkMode={isDarkMode} />
+
         <Choose isDarkMode={isDarkMode} />
         <Stack spacing={2}>
         <About isDarkMode={isDarkMode} />
@@ -40,7 +42,7 @@ export default function PortfolioContainer() {
         <AboutFour isDarkMode={isDarkMode} />
         </Stack>
   
-  <Project isDarkMode={isDarkMode} />
+ 
   
   <Email isDarkMode={isDarkMode} />     
  

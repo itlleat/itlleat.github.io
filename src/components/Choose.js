@@ -1,6 +1,5 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-// import { CardActionArea } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -31,6 +30,13 @@ return (
             <Typography gutterBottom variant="h6" component="div" className={textClassName}>
                 Depends on who tells it...
                 </Typography> 
+
+                <CardMedia className={"card-media"}>
+    <div className="openai"></div>
+    </CardMedia>
+
+
+
         </CardContent>
     </Card>
 

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.50c7175f.css",
-    "main.js": "/static/js/main.3af6a3c0.js",
+    "main.css": "/static/css/main.d41b9c12.css",
+    "main.js": "/static/js/main.2f327a51.js",
     "static/media/koda.jpg": "/static/media/koda.69ec119ba5cf855f97d8.jpg",
     "static/media/scottrmnp.jpg": "/static/media/scottrmnp.3489b7bf6e31ab12476a.jpg",
     "static/media/scottrob.jpg": "/static/media/scottrob.f6333c79cdff2d47c399.jpg",
@@ -19,12 +19,13 @@
     "static/media/lovecraft.jpg": "/static/media/lovecraft.b3f4432b7fa6a18ff7e6.jpg",
     "static/media/developer-at-work.svg": "/static/media/developer-at-work.81efa0c5adee1e78ec9f.svg",
     "static/media/girl-taking-selfie (1).svg": "/static/media/girl-taking-selfie (1).51bd7ce9290677476d98.svg",
+    "static/media/openailogo.png": "/static/media/openailogo.dd9aa8d4933b9dcc5de0.png",
     "index.html": "/index.html",
-    "main.50c7175f.css.map": "/static/css/main.50c7175f.css.map",
-    "main.3af6a3c0.js.map": "/static/js/main.3af6a3c0.js.map"
+    "main.d41b9c12.css.map": "/static/css/main.d41b9c12.css.map",
+    "main.2f327a51.js.map": "/static/js/main.2f327a51.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c7175f.css",
-    "static/js/main.3af6a3c0.js"
+    "static/css/main.d41b9c12.css",
+    "static/js/main.2f327a51.js"
   ]
 }

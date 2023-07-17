@@ -1,34 +1,12 @@
-/* .switch {
-    position: absolute;
-
-    
-}
-
-.light-mode .switch {
-
-}
-
-.dark-mode .switch {
-    background-color: black;
-    background: linear-gradient(to right, rgba(130, 154, 177, 0) 0%, rgba(51, 78, 104, 0.5) 100%);
-    outline: 2px solid #746cc0;
-    box-shadow: 0 0 8px #efedff;
-    transition: outline 1.2s, box-shadow 1.3s;
-    border-radius: 50%;
-    }
-
-    .spacer {
-        margin-bottom: 1rem;
-      } */
 
       .light-mode .switch-container {
         max-height: 100px;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
       }
 
       .dark-mode .switch-container {
         max-height: 100px;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
       }
 
       .switch {
