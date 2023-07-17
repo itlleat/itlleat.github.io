@@ -32,7 +32,7 @@ return (
                 </Typography> 
 
                 <CardMedia className={"card-media"}>
-    <div className="openai"></div>
+    {/* <div className="openai"></div> */}
     </CardMedia>
 
 
