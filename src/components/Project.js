@@ -15,8 +15,16 @@ export default function Project({ isDarkMode }) {
   const textClassName = `project-text ${isDarkMode ? 'dark-text' : 'light-text'}`; 
 
   return (
+<div>
+    <Typography variant="h1" className="project-header">
+    Recent Projects
+  </Typography>
+  <hr />
+
     <div className={containerClassName}>
-      
+
+
+     
         <Card className="project-card">
           <CardActionArea>
           <a href="https://github.com/itlleat/mongo-mango-social-club">
@@ -26,12 +34,11 @@ export default function Project({ isDarkMode }) {
       </div>
             </a>
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div" className={textClassName}>
-               Mongo Mango Social Club
+              <Typography gutterBottom variant="h4" component="div" className={textClassName}>
+               Social Media API
               </Typography>
               <Typography variant="body2" className={textClassName}>
-              API for a social network that lets users select friends, 
-              share thoughts, and share reactions to others thoughts.
+              Custom API for a social network that uses Express for routing, a MongoDB database, and the Mongoose ODM.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -106,7 +113,7 @@ export default function Project({ isDarkMode }) {
             </a>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className={textClassName}>
-              4. Biz Bank
+              Biz Bank
               </Typography>
               <Typography variant="body2" className={textClassName}>
               CMS application designed to help non-developers interact with and view information stored in databases with ease.
@@ -122,6 +129,7 @@ export default function Project({ isDarkMode }) {
           </CardActions>
         </Card>
        
+    </div>
     </div>
   );
 }

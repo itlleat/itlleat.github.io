@@ -34,13 +34,7 @@ export default function PortfolioContainer() {
  
       <Project isDarkMode={isDarkMode} />
 
-        <Choose isDarkMode={isDarkMode} />
-        <Stack spacing={2}>
-        <About isDarkMode={isDarkMode} />
-        <AboutTwo isDarkMode={isDarkMode} />
-        <AboutThree isDarkMode={isDarkMode} />
-        <AboutFour isDarkMode={isDarkMode} />
-        </Stack>
+
   
  
   

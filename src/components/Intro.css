@@ -1,3 +1,35 @@
+.light-mode .technologies {
+  padding: 1em;
+  background: #fef6f6;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  justify-items: center;
+  border-radius: 5px;
+  transition: .8s;
+}
+
+.light-mode .logo {
+padding: 5px;
+height: 100px;
+}
+
+.dark-mode .logo {
+  padding: 5px;
+}
+
+.dark-mode .technologies {
+  padding: 1em;
+  border-radius: 5px;
+  background: #142130;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1em;
+  justify-items: center;
+  transition: .8s;
+}
+
+
 .light-mode .intro-container {
   
     display: flex;
@@ -41,15 +73,15 @@
   outline: 2px solid #f2757d;
   box-shadow: 0 0 8px #454077;
   transition: .8s;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   }
 
   .dark-mode .intro-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2rem; 
+    margin: 1rem; 
     height: auto;
     align-items: center; 
     text-align: center; 
@@ -89,9 +121,20 @@
   transition: .8s;
   margin-left: 3rem;
   margin-right: 3rem;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   }
+
+  /* .light-mode .logo {
+background: #fef6f6;
+background-size: cover;
+padding: 1rem;
+border-radius: 5px;
+  } */
+
+.dark-mode .grid-container {
+
+}
 
 /* .roddy {
     position: absolute;
@@ -106,21 +149,32 @@
     opacity: 100%; 
   } */
 
-  .light-mode .intro-text {
-    color: #fef6f6;
+.light-mode hr {
+
+}
+
+ .dark-mode hr {
+  background-color: #746cc0;
+  border: none;
+  height: 4px;
+  transition: .8s;
+}
+
+  .light-mode .intro-header {
+    /* color: #fef6f6; */
     /* background: #fef6f6; */
     transition: color .8s;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    border-radius: 3px;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    /* border-radius: 3px; */
   }
   
-  .dark-mode .intro-text {
+  .dark-mode .intro-header {
     color: #f2757d;
     transition: color .8s;
     /* background: #1a2a3d; */
-    padding: 6px;
-    border-radius: 3px;
+    /* padding: 6px;
+    border-radius: 3px; */
   }
 
 /* .light-mode .roddy {

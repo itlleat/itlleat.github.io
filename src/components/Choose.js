@@ -6,6 +6,16 @@ import CardMedia from '@mui/material/CardMedia';
 import  "./Choose.css";
 import "./Project.js";
 
+// THIS GOES INTO PORTFOLIO Container.JS
+
+{/* <Choose isDarkMode={isDarkMode} />
+<Stack spacing={2}>
+<About isDarkMode={isDarkMode} />
+<AboutTwo isDarkMode={isDarkMode} />
+<AboutThree isDarkMode={isDarkMode} />
+<AboutFour isDarkMode={isDarkMode} />
+</Stack> */}
+
 
 export default function Choose({ isDarkMode }) {
     const containerClassName = `choose-container ${isDarkMode ? 'dark-mode' : 'light-mode'}`;
