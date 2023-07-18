@@ -25,14 +25,12 @@ return (
                 Full Stack Developer - University of Denver, Colorado
                 </Typography> 
                 <Typography gutterBottom variant="p" component="div" className='intro-header'>
-                Specializing in building custom, dynamic applications driven by data and user demand with an extensive background in Project Management.
+                I specialize in building custom, dynamic applications driven by data and user demand with an extensive background in Project Management.
 
                 </Typography> 
     <Card className={containerClassName}>
     <CardContent>
-        <Typography className="intro-header">
-            My Stack
-        </Typography>
+
 
                 <div class="grid-container" className="technologies">
             <div className="container">

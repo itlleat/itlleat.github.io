@@ -34,8 +34,8 @@ export default function Project({ isDarkMode }) {
       </div>
             </a>
             <CardContent>
-              <Typography gutterBottom variant="h4" component="div" className={textClassName}>
-               Social Media API
+              <Typography gutterBottom variant="h5" component="div" className={textClassName}>
+               NoSQL Social Media API
               </Typography>
               <Typography variant="body2" className={textClassName}>
               Custom API for a social network that uses Express for routing, a MongoDB database, and the Mongoose ODM.
@@ -47,6 +47,15 @@ export default function Project({ isDarkMode }) {
             <a className="repo-link" href="https://github.com/itlleat/mongo-mango-social-club">
                     <img className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
                 </a>
+                <a href="https://expressjs.com/">
+                    <img class="grid-item" className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" />
+                </a>
+                <a href="https://www.mongodb.com/">
+
+<img class="grid-item" className="logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" alt="MongoDb" />
+
+</a>
+
                 </CardActionArea>
           </CardActions>
         </Card>
@@ -61,10 +70,10 @@ export default function Project({ isDarkMode }) {
             </a>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className={textClassName}>
-               Text Cairn
+               PWA Text Editor
               </Typography>
               <Typography variant="body2" className={textClassName}>
-              PWA text editor for flexibility and ease of use.
+              Created with the indexedDB API, this app features a number of data persistence techniques that create redundancy for browser support and the ability for it to be downloaded and used offline.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -87,10 +96,11 @@ export default function Project({ isDarkMode }) {
             </a>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className={textClassName}>
-               Ethical Capitalism Simulator
+               E-Commerce Back End
               </Typography>
+              
               <Typography variant="body2" className={textClassName}>
-              Backend for an e commerce site using MySQL and express.
+              ORM back-end for internet retail using Express.js API routing to use Sequelize to interact with a MySQL database.
               </Typography>
             </CardContent>
           </CardActionArea>
@@ -113,10 +123,10 @@ export default function Project({ isDarkMode }) {
             </a>
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className={textClassName}>
-              Biz Bank
+              CMS Employee Tracker
               </Typography>
               <Typography variant="body2" className={textClassName}>
-              CMS application designed to help non-developers interact with and view information stored in databases with ease.
+              CMS application designed to help non-developers interact with and view information stored in databases using Node.js, Inquirer, and MySQL.
               </Typography>
             </CardContent>
           </CardActionArea>
