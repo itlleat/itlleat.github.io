@@ -5,8 +5,9 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1em;
   justify-items: center;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: .8s;
+  opacity: 85%;
 }
 
 .light-mode .logo {
@@ -20,13 +21,14 @@ height: 100px;
 
 .dark-mode .technologies {
   padding: 1em;
-  border-radius: 5px;
-  background: #142130;
+  border-radius: 3px;
+  background: #746cc0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1em;
   justify-items: center;
   transition: .8s;
+  opacity: 85%;
 }
 
 
@@ -146,45 +148,13 @@ height: 100px;
 
   .light-mode .intro-header {
     color: #142130;
-    /* background: #fef6f6; */
     transition: color .8s;
     margin-left: 1%;
-   
-  
   }
   
   .dark-mode .intro-header {
     color: #f2757d;
     transition: color .8s;
-    /* background: #1a2a3d; */
-    /* padding: 6px;
-    border-radius: 3px; */
+    margin-left: 1%;
   }
 
-/* .light-mode .roddy {
-    position: absolute;
-    padding-top: 2rem;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('./images/roddy.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom 10%;
-    opacity:100%;
-    border-radius: 10px;
-  }
-
-  .dark-mode .roddy {
-    position: absolute;
-    padding-top: 2rem;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('./images/roddy.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center bottom 10%;
-    opacity:75%;
-    border-radius: 10px;
-  }  */

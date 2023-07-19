@@ -40,7 +40,7 @@ function Technologies() {
                 </a>
                 <a href="https://aws.amazon.com/what-is/sql/#:~:text=Structured%20query%20language%20(SQL)%20is,relationships%20between%20the%20data%20values.https://aws.amazon.com/what-is/sql/#:~:text=Structured%20query%20language%20(SQL)%20is,relationships%20between%20the%20data%20values.">
 
-                    <img class="grid-item" className="logo"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" alt="SQL" />
+                    <img class="grid-item" className="logo"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" alt="MySQL" />
 
                 </a>
                 <a href="https://graphql.org/">
