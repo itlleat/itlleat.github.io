@@ -6,13 +6,13 @@ import Footer from './Footer'
 import DarkModeSwitch from './DarkModeSwitch';
 import "./PortfolioContainer.css"
 import Intro from './Intro';
-// import About from './About';
-// import AboutTwo from './AboutTwo'
-// import AboutThree from './AboutThree'
-// import AboutFour from './AboutFour'
-// import Choose from './Choose'
+import About from './About';
+ import AboutTwo from './AboutTwo'
+ import AboutThree from './AboutThree'
+import AboutFour from './AboutFour'
+import Choose from './Choose'
 import Email from './Email'
-// import Stack from '@mui/material/Stack';
+import Stack from '@mui/material/Stack';
 
 export default function PortfolioContainer() {
   const [isDarkMode, setDarkMode] = useState(false);
@@ -32,9 +32,7 @@ export default function PortfolioContainer() {
         <div className='spacer' />
       <Intro />
  
-      <Project isDarkMode={isDarkMode} />
-
-
+       <Project isDarkMode={isDarkMode} />
   
  
   

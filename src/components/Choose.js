@@ -8,13 +8,7 @@ import "./Project.js";
 
 // THIS GOES INTO PORTFOLIO Container.JS
 
-{/* <Choose isDarkMode={isDarkMode} />
-<Stack spacing={2}>
-<About isDarkMode={isDarkMode} />
-<AboutTwo isDarkMode={isDarkMode} />
-<AboutThree isDarkMode={isDarkMode} />
-<AboutFour isDarkMode={isDarkMode} />
-</Stack> */}
+
 
 
 export default function Choose({ isDarkMode }) {
@@ -22,7 +16,10 @@ export default function Choose({ isDarkMode }) {
      const textClassName = `choose-text ${isDarkMode ? 'dark-text' : 'light-text'}`; 
 
 return (
-
+    <>
+    <Typography gutterBottom variant="h3" component="div" className={textClassName}>
+                The Story So Far
+                </Typography>
 
     <Card className={containerClassName}>
     <CardContent>
@@ -49,6 +46,6 @@ return (
 
         </CardContent>
     </Card>
-
+    </>
 );
     }

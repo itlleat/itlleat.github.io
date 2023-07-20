@@ -13,11 +13,11 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 1rem; /* Adjust the top positioning as needed */
+        top: 2em; 
       }
       
       .light-mode .switch {
-        /* Styles for light mode switch */
+    
       }
       
       .dark-mode .switch {

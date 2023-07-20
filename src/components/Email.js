@@ -40,11 +40,14 @@ export default function Email({ isDarkMode }) {
 
   return (
 
+<>
+    <Typography id="contact-title" variant="h1">Contact</Typography>
+     <hr />
       <Box
         className={containerClassName}
       >
-        <Typography id="contact-title" variant="h3">Contact</Typography>
-        {/* <EmailOutlinedIcon className={iconClassName} /> */}
+
+
                 {isSubmitted ? (
           <Typography variant="h2" align="center">
             Submission successful!
@@ -65,6 +68,6 @@ export default function Email({ isDarkMode }) {
         </form>
            )}
       </Box>
-
+      </>
   );
 };

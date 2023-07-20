@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.647add4f.css",
-    "main.js": "/static/js/main.98aa083c.js",
+    "main.css": "/static/css/main.aa7a26cc.css",
+    "main.js": "/static/js/main.1a35c9ed.js",
     "static/media/server-protection.svg": "/static/media/server-protection.75fdbc4ad0d8a8b09030.svg",
     "static/media/business-growth-happy-publicdomainvectors.org.svg": "/static/media/business-growth-happy-publicdomainvectors.org.5fc30e2f6f935eae35a8.svg",
     "static/media/developer-at-work.svg": "/static/media/developer-at-work.81efa0c5adee1e78ec9f.svg",
     "static/media/girl-taking-selfie (1).svg": "/static/media/girl-taking-selfie (1).51bd7ce9290677476d98.svg",
     "index.html": "/index.html",
-    "main.647add4f.css.map": "/static/css/main.647add4f.css.map",
-    "main.98aa083c.js.map": "/static/js/main.98aa083c.js.map"
+    "main.aa7a26cc.css.map": "/static/css/main.aa7a26cc.css.map",
+    "main.1a35c9ed.js.map": "/static/js/main.1a35c9ed.js.map"
   },
   "entrypoints": [
-    "static/css/main.647add4f.css",
-    "static/js/main.98aa083c.js"
+    "static/css/main.aa7a26cc.css",
+    "static/js/main.1a35c9ed.js"
   ]
 }

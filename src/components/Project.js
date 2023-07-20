@@ -9,6 +9,13 @@ import { CardActionArea, CardActions } from '@mui/material';
 
 
 
+// <Choose isDarkMode={isDarkMode} />
+// <Stack spacing={2}>
+// <About isDarkMode={isDarkMode} />
+// <AboutTwo isDarkMode={isDarkMode} />
+// <AboutThree isDarkMode={isDarkMode} />
+// <AboutFour isDarkMode={isDarkMode} />
+// </Stack> 
 
 export default function Project({ isDarkMode }) {
   const containerClassName = `project-container ${isDarkMode ? 'dark-mode' : 'light-mode'}`;
@@ -17,7 +24,7 @@ export default function Project({ isDarkMode }) {
   return (
     <div>
       <Typography variant="h1" className="project-header">
-        Recent Projects
+        Server Side Projects
       </Typography>
       <hr />
 

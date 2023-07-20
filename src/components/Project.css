@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +28,7 @@
 
 .dark-mode .project-header {
   color: #f2757d;
+ 
   transition: color .8s;
   /* width: calc(50% - 0.5rem); */
   margin-bottom: 1rem; 
@@ -316,6 +321,7 @@ transition: color .8s;
   }
 
   .dark-mode .project-link {
+    color: #f2757d;
     display: flex;
 justify-content: center;
 background: #746cc0;
