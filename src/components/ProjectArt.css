@@ -1,0 +1,26 @@
+.light-mode hr {
+    height: 4px;
+    border: none;
+    background-color: #142130;
+    opacity: 65%;
+  }
+  
+   .dark-mode hr {
+    background-color: #746cc0;
+    border: none;
+    height: 4px;
+    transition: .8s;
+    opacity: 60%;
+  }
+
+  .light-mode .art-title {
+    color: #142130;
+    transition: color .8s;
+    margin-left: 1%;
+  }
+
+  .dark-mode .art-title {
+    color: #f2757d;
+    transition: color .8s;
+    margin-left: 1%;
+  }
