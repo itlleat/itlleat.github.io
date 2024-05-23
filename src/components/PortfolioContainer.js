@@ -13,6 +13,7 @@ import AboutFour from './AboutFour'
 import Choose from './Choose'
 import Email from './Email'
 import Stack from '@mui/material/Stack';
+import ProjectArt from './ProjectArt'
 
 export default function PortfolioContainer() {
   const [isDarkMode, setDarkMode] = useState(false);
@@ -34,7 +35,7 @@ export default function PortfolioContainer() {
  
        <Project isDarkMode={isDarkMode} />
   
- 
+       <ProjectArt isDarkMode={isDarkMode} />     
   
   <Email isDarkMode={isDarkMode} />     
  
