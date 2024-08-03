@@ -35,7 +35,7 @@ export default function PortfolioContainer() {
  
        <Project isDarkMode={isDarkMode} />
   
-       <ProjectArt isDarkMode={isDarkMode} />     
+       {/* <ProjectArt isDarkMode={isDarkMode} />      */}
   
   <Email isDarkMode={isDarkMode} />     
  
