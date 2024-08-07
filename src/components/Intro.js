@@ -7,7 +7,7 @@ import "./Project.js";
 
 export default function Choose({ isDarkMode }) {
     const containerClassName = `intro-container ${isDarkMode ? 'dark-mode' : 'light-mode'}`;
-    const textClassName = `intro-text ${isDarkMode ? 'dark-text' : 'light-text'}`; 
+    // const textClassName = `intro-text ${isDarkMode ? 'dark-text' : 'light-text'}`; 
 
     return (
         <>
