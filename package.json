@@ -13,7 +13,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs": "^4.0.2",
-    "gh-pages": "^5.0.0",
     "hamburger-react": "^2.5.0",
     "normalize.css": "^8.0.1",
     "react": "^17.0.0 || ^18.0.0",
@@ -56,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nodemon": "^3.1.0",
     "react-svg-loader": "^3.0.3"
   }
