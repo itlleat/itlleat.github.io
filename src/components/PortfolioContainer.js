@@ -33,7 +33,7 @@ export default function PortfolioContainer() {
         <div className='spacer' />
       <Intro />
  
-       <Project isDarkMode={isDarkMode} />
+       {/* <Project isDarkMode={isDarkMode} /> */}
   
        {/* <ProjectArt isDarkMode={isDarkMode} />      */}
   
