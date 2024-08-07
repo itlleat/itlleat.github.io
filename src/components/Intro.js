@@ -70,7 +70,7 @@ export default function Choose({ isDarkMode }) {
                             <a href="https://jquery.com/">
                                 <img className="grid-item logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="jQuery" />
                             </a>
-                            <a href="https://www.adobe.com/products/illustrator.html">
+                            {/* <a href="https://www.adobe.com/products/illustrator.html">
                                 <img className="grid-item logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" alt="Adobe Illustrator" />
                             </a>
                             <a href="https://www.adobe.com/products/aftereffects.html">
@@ -78,7 +78,7 @@ export default function Choose({ isDarkMode }) {
                             </a>
                             <a href="https://www.w3schools.com/cpp/cpp_intro.asp">
                                 <img className="grid-item logo" src="https://cdn.worldvectorlogo.com/logos/c.svg" alt="c++" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </CardContent>
