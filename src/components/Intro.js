@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import "./Intro.css";
+import CardMedia from '@mui/material/CardMedia';
 import "./Project.js";
 
 export default function Choose({ isDarkMode }) {
@@ -21,7 +22,7 @@ export default function Choose({ isDarkMode }) {
             <Typography gutterBottom variant="p" component="div" className='intro-header'>
                 I specialize in building custom, dynamic applications driven by data and user demand with an extensive background in Project Management.
             </Typography> 
-            <Card className={containerClassName}>
+            {/* <Card className={containerClassName}>
                 <CardContent>
                     <div className="grid-container technologies">
                         <div className="container">
@@ -70,18 +71,18 @@ export default function Choose({ isDarkMode }) {
                             <a href="https://jquery.com/">
                                 <img className="grid-item logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="jQuery" />
                             </a>
-                            {/* <a href="https://www.adobe.com/products/illustrator.html">
-                                <img className="grid-item logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-line.svg" alt="Adobe Illustrator" />
-                            </a>
-                            <a href="https://www.adobe.com/products/aftereffects.html">
-                                <img className="grid-item logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-plain.svg" alt="AfterEffects" />
-                            </a>
-                            <a href="https://www.w3schools.com/cpp/cpp_intro.asp">
-                                <img className="grid-item logo" src="https://cdn.worldvectorlogo.com/logos/c.svg" alt="c++" />
-                            </a> */}
                         </div>
                     </div>
                 </CardContent>
+            </Card> */}
+            <Card>
+            <CardMedia 
+  className='bgimg'
+  component="img"
+  height="194"
+  image={isDarkMode ? require('./images/my_stack.png') : require('./images/my_stack.png')}
+  alt="dumas"
+/>
             </Card>
         </>
     );
