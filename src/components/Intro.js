@@ -75,7 +75,7 @@ export default function Choose({ isDarkMode }) {
                     </div>
                 </CardContent>
             </Card> */}
-            <Card>
+            <Card className={containerClassName}>
             <CardMedia 
   className='bgimg'
   component="img"
